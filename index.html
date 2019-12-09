@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HCI</title>
+        <style>
+        .reg{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 50px;
+            width: 50%;
+            margin: 50px auto;
+            border: 1px solid #c5c5c5;
+            border-radius: 50px;
+            }
+
+        input[type=text],[type=email],[type=password]{
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            
+    
+            }
+        label{
+            
+            margin-right:20px; 
+            }
+
+        input[type=submit],[type=button] {
+            width: 40%;
+            background-color: rgb(27, 74, 145);
+            color: white;
+            padding: 14px 20px;
+            margin-left: 40px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+  
+        input[type=submit]:hover {
+            background-color: rgba(27, 74, 145, 0.904);
+          }
+        input[type=button]:hover {
+            background-color: rgba(27, 74, 145, 0.904);
+          }
+  
+  
+        </style>
+        
+    </head>
+    <body>
+        <div class="reg">
+            <form method="GET" action="login.html">
+                <label>Name: </label>
+                <input type="text" name="name" placeholder="enter your name ">
+                <br>
+                
+                <label>Email: </label>
+                <input type="email" name="email" placeholder="enter your e-mail ">
+                <br>
+                <label>Password: </label>
+                <input type="password" name="pass" placeholder="enter you password"><br>
+                <label>RePassword: </label>
+                <input type="password" name="pass" placeholder="enter you password again"><br>
+
+                <br>
+                <input type="button" value="register" src="login.html">
+                <input type="submit" value="login">
+                
+            </form>
+            </div>
+        
+    </body>
+</html>
